@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import Header from './header';
+import Recipe from './body';
+import Footer from './footer';
 
 class App extends Component {
   state = {  }
@@ -7,8 +9,8 @@ class App extends Component {
     return ( 
       <>
       <Header />
-      {/* <Body />
-      <Footer /> */}
+      <Recipe />
+      <Footer />
       </>
      );
   }
